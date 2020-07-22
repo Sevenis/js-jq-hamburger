@@ -1,11 +1,11 @@
 //fa apparire la div hamburger-menu al click
 //sull'icona in alto a dx
-$('.fa-bars').click(function(){
+$('a:last-of-type').click(function(){
     $('.hamburger-menu').show();
 });
 
-//fa scomparire la div hamburger-menu al click 
+//fa scomparire la div hamburger-menu al click
 //sull'icona in alto a dx
-$('.fa-times').click(function(){
+$('.close').click(function(){
     $('.hamburger-menu').hide();
 });
